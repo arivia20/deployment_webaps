@@ -19,6 +19,6 @@ if Soal == "Soal 1":
         st.write("Salah")
     elif opsi3:
         st.write("salah")
-    elif opsi1:
+    elif opsi4:
         st.write("Salah")
    

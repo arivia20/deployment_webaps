@@ -1,3 +1,5 @@
+import streamlit as st
+
 Soal = st.selectbox(
     'Pilih soal',
     ('Soal 1', 'Soal 2', 'Soal 3'))

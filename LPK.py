@@ -127,5 +127,23 @@ elif Soal == "Soal 7":
         st.write("salah")
     elif opsi4:
         st.write("salah")
-       
+        
+elif Soal == "Soal 7":
+    st.write("Trayek pH Fenolftalein adalah...")
+    col1, col2 = st.columns (2)
+    with col1:
+        opsi1= st.button("3,1 - 4,4")
+        opsi2= st.button("6,0 - 7,6")
+    with col2:
+        opsi3= st.button("4,2 - 6,3")
+        opsi4= st.button("8,2 - 10")
+    if opsi1:
+        st.write("salah")
+    elif opsi2:
+        st.write("salah")
+    elif opsi3:
+        st.write("salah")
+    elif opsi4:
+        st.write("benar")
+        st.balloons
 

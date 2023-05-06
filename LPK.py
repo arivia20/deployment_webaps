@@ -10,16 +10,11 @@ import streamlit as st
 
 st.header('ANAK KIMIA BNGT')
 st.header('Anak AKA')
-import streamlit as st
 
-soal = st.select_slider(
-    'pilihan nomer',
-    options=['1', '2', '3', '4', '5', '6', '7', '8', '9' , '10'],
-    value=('nomer'))
 
 Soal = st.selectbox(
     'Pilih soal',
-    ('analisis titrimetri', 'kimia organik'))
+    ('Soal 1', 'Soal 2', 'Soal 3','Soal 4','Soal 5','Soal 6','Soal 7','Soal 7','Soal 8','Soal 9','Soal 10'))
 if Soal == "Soal 1":
     st.write("titran pada standardisasi alkalimetri adalah...")
     col1, col2 = st.columns (2)

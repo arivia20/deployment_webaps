@@ -21,4 +21,21 @@ if Soal == "Soal 1":
     elif opsi4:
         st.write("Benar")
         st.balloons()
-   
+if soal =="soal 2":
+    st.write("indikator dalam standardisasi NaOH adalah...")
+    col1, col2 = st.columns (2)
+    with col1:
+        opsi1= st.button("SM")
+        opsi2= st.button("MM")
+    with col2:
+        opsi3= st.button("PP")
+        opsi4= st.button("fenolftalein")
+    if opsi1:
+        st.write("salah")
+    elif opsi2:
+        st.write("salah")
+    elif opsi3:
+        st.write("benar")
+        st.balloons()
+    elif opsi4:
+        st.write("salah")

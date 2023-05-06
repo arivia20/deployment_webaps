@@ -4,7 +4,7 @@ Soal = st.selectbox(
     'Pilih soal',
     ('Soal 1', 'Soal 2', 'Soal 3'))
 if Soal == "Soal 1":
-    st.write("titran pada standardisasi NaOH adalah...")
+    st.write("titran pada standardisasi alkalimetri adalah...")
     col1, col2 = st.columns (2)
     with col1:
         opsi1 = st.button("HCL")
@@ -21,7 +21,7 @@ if Soal == "Soal 1":
     elif opsi4:
         st.write("Benar")
         st.balloons()
-if soal =="soal 2":
+if soal == "soal 2":
     st.write("indikator dalam standardisasi NaOH adalah...")
     col1, col2 = st.columns (2)
     with col1:

@@ -11,13 +11,10 @@ import streamlit as st
 st.header('QUIZ')
 st.caption('yuk belajar')
 
-option = st.selectbox(
-    'pilih materi',
-    ('Analisis Titrimetri', 'Kimia Organik'))
+Soal = st.selectbox(
+    'pilihan soal',
+    ('Soal 1','Soal 2','Soal 3','Soal 4','Soal 5','Soal 6','Soal 7','Soal 8','Soal 8','Soal 9','Soal 10'))
 
-
-Soal = st.slider('Soal 1','Soal 2','Soal 3','Soal 4','Soal 5')
-st.write("I'm ok", Soal)
 
 if Soal == "Soal 1":
     st.write("titran pada standardisasi alkalimetri adalah...")

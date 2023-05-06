@@ -2,7 +2,7 @@ import streamlit as st
 
 Soal = st.selectbox(
     'Pilih soal',
-    ('Soal 1', 'Soal 2', 'Soal 3'))
+    ('Soal 1', 'Soal 2', 'Soal 3', 'Soal 4', 'Soal 5', 'Soal 6'))
 if Soal == "Soal 1":
     st.write("titran pada standardisasi alkalimetri adalah...")
     col1, col2 = st.columns (2)

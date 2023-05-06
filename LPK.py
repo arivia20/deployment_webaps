@@ -22,7 +22,7 @@ if Soal == "Soal 1":
         st.write("Benar")
         st.balloons()
         
-elif soal == "Soal 2":
+elif Soal == "Soal 2":
     st.write("indikator dalam standardisasi NaOH adalah...")
     col1, col2 = st.columns (2)
     with col1:
@@ -41,7 +41,7 @@ elif soal == "Soal 2":
     elif opsi4:
         st.write("salah")
         
-elif soal == "Soal 3":
+elif Soal == "Soal 3":
     st.write("Alkil halida-alkil halida yang dapat digunakan untuk membuat 2-metil-3-siklobutilpentana dengan cara Corey-House adalah(alkil halida sesuai tahapannya)...")
     col1, col2 = st.columns (2)
     with col1:
@@ -60,7 +60,7 @@ elif soal == "Soal 3":
     elif opsi4:
         st.write("salah") 
         
-if soal == "Soal 4":
+if Soal == "Soal 4":
     st.write("Campuran reagen berikut yang menghasilkan reagen uji Tollens adalah...")
     col1, col2 = st.columns (2)
     with col1:

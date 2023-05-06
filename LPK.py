@@ -78,3 +78,22 @@ if soal == "Soal 4":
         st.balloons()
     elif opsi4:
         st.write("salah")
+        
+if soal == "Soal 5":
+    st.write("Uji positif aldehid dan keton dengan pereaksi NaHSO3 adalah terbentuknya...")
+    col1, col2 = st.columns (2)
+    with col1:
+        opsi1= st.button("Endapan merah bata")
+        opsi2= st.button("Endapan cermin perak")
+    with col2:
+        opsi3= st.button("Endapan atau minyak kuning-kuning tua")
+        opsi4= st.button("Endapan putih")
+    if opsi1:
+        st.write("salah")
+    elif opsi2:
+        st.write("salah")
+    elif opsi3:
+        st.write("salah")
+    elif opsi4:
+        st.write("benar")
+        st.balloons()

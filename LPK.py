@@ -3,7 +3,7 @@ import time
 import streamlit as st
 import streamlit as st
 from PIL import Image
-
+st.title('LPK kuyy!')
 image = Image.open('IMG_20230506_184224.jpg')
 
 st.image(image, caption='stevanny,lulu,ekke,kania,pandan')

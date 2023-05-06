@@ -16,11 +16,11 @@ option = st.selectbox(
     ('Analisis Titrimetri', 'Kimia Organik'))
 
 
-Soal = st.selectbox(
+Soal analisis titrimetri = st.selectbox(
     'Analisis titrimetri',
     ('Soal 1', 'Soal 2', 'Soal 3','Soal 4','Soal 5'))
 
-if Soal Analisis Titrimetri == "Soal 1":
+if Soal == "Soal 1":
     st.write("titran pada standardisasi alkalimetri adalah...")
     col1, col2 = st.columns (2)
     with col1:

@@ -10,6 +10,9 @@ import streamlit as st
 
 st.header('ANAK KIMIA BNGT')
 st.header('Anak AKA')
+import streamlit as st
+from PIL import Image
+
 
 Soal = st.selectbox(
     'Pilih soal',
@@ -90,6 +93,26 @@ elif Soal == "Soal 4":
     elif opsi4:
         st.write("salah")
         
+elif Soal == "Soal 5":
+    st.write("K2Cr2O7 digunakan sebagai baku primer dalam standarisasi...")
+    col1, col2 = st.columns (2)
+    with col1:
+        opsi1= st.button("NA2S2O3 0,1N")
+        opsi2= st.button("KMnO7 0,1N")
+    with col2:
+        opsi3= st.button("Na2B407,1N")
+        opsi4= st.button("HCl 0,1N")
+    if opsi1:
+        st.write("benar")
+    elif opsi2:
+        st.write("salah")
+    elif opsi3:
+        st.write("salah")
+    elif opsi4:
+        st.write("salah")
+        st.balloons()
+        
+        
 elif Soal == "Soal 6":
     st.write("senyawa 3-metil-3-heksena direaksikan dengan asam bromida menghasilkan...")
     col1, col2 = st.columns (2)
@@ -145,5 +168,47 @@ elif Soal == "Soal 8":
         st.write("salah")
     elif opsi4:
         st.write("benar")
-        st.balloons
+        st.balloons()
+        
+elif Soal == "Soal 9":
+    st.write("mengapa pada titrasi permanganometri tidak digunakan indikator?...")
+    col1, col2 = st.columns (2)
+    with col1:
+        opsi1= st.button("karena penambahan H2SO4 sebagai pengganti indikator")
+        opsi2= st.button("karena pemanasan yang dilakukan akan menyebabkan perubahan warna")
+    with col2:
+        opsi3= st.button("karena asam oksalat bersifat auto indikator")
+        opsi4= st.button("karena KMnO4 bersifat auto indikator")
+    if opsi1:
+        st.write("salah")
+    elif opsi2:
+        st.write("salah")
+    elif opsi3:
+        st.write("salah")
+    elif opsi4:
+        st.write("benar")
+        st.balloons()
+   
+ if Soal == "Soal 10":
+image = Image.open('Nanocarbon_icon_2.jpg')
+ 
+    st.write("l")
+    col1, col2 = st.columns (2)
+    with col1:
+        opsi1= st.button("karena penambahan H2SO4 sebagai pengganti indikator")
+        opsi2= st.button("karena pemanasan yang dilakukan akan menyebabkan perubahan warna")
+    with col2:
+        opsi3= st.button("karena asam oksalat bersifat auto indikator")
+        opsi4= st.button("karena KMnO4 bersifat auto indikator")
+    if opsi1:
+        st.write("salah")
+    elif opsi2:
+        st.write("salah")
+    elif opsi3:
+        st.write("salah")
+    elif opsi4:
+        st.write("benar")
+        st.balloons()
+        
+        
 

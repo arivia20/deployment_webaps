@@ -189,7 +189,7 @@ elif Soal == "Soal 9":
         st.write("benar")
         st.balloons()
    
- if Soal == "Soal 10":
+elif Soal == "Soal 10":
 image = Image.open('Nanocarbon_icon_2.jpg')
  
     st.write("l")

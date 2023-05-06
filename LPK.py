@@ -23,13 +23,13 @@ if Soal == "Soal 1:analisis titrimetri":
         opsi3 = st.button("AgNO3")
         opsi4 = st.button("NaOH")
     if opsi1:
-        st.write("Salah")
+        st.write("salah")
     elif opsi2:
-        st.write("Salah")
+        st.write("salah")
     elif opsi3:
         st.write("salah")
     elif opsi4:
-        st.write("Benar")
+        st.write("benar")
         st.balloons()
         
 elif Soal == "Soal 2":

@@ -79,21 +79,23 @@ if Soal == "Soal 4":
     elif opsi4:
         st.write("salah")
         
-if Soal == "Soal 5":
-    st.write("Uji positif aldehid dan keton dengan pereaksi NaHSO3 adalah terbentuknya...")
+if Soal == "Soal 6":
+    st.write("senyawa 3-metil-3-heksena direaksikan dengan asam bromida menghasilkan...")
     col1, col2 = st.columns (2)
     with col1:
-        opsi1= st.button("Endapan merah bata")
-        opsi2= st.button("Endapan cermin perak")
+        opsi1= st.button("3-bromo-4-metilheksana")
+        opsi2= st.button("3-bromoheksana")
     with col2:
-        opsi3= st.button("Endapan atau minyak kuning-kuning tua")
-        opsi4= st.button("Endapan putih")
+        opsi3= st.button("3-bromo-3-metilheksana")
+        opsi4= st.button("4-bromo-3-metilheksanaa")
     if opsi1:
         st.write("salah")
     elif opsi2:
         st.write("salah")
     elif opsi3:
-        st.write("salah")
-    elif opsi4:
         st.write("benar")
         st.balloons()
+    elif opsi4:
+        st.write("salah")
+       
+

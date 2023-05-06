@@ -169,7 +169,7 @@ elif Soal == "Soal 8":
         st.balloons()
         
 elif Soal == "Soal 9":
-    st.write("mengapa pada titrasi permanganometri tidak digunakan indikator?...")
+    st.write("mengapa pada titrasi permanganometri tidak digunakan indikator...")
     col1, col2 = st.columns (2)
     with col1:
         opsi1= st.button("karena penambahan H2SO4 sebagai pengganti indikator")

@@ -2,9 +2,14 @@ import streamlit as st
 import time
 import streamlit as st
 
-with st.spinner('Wait for it 05.00'):
+with st.spinner('Wait for it 03.00'):
     time.sleep(5)
 st.success('Done!')
+
+import streamlit as st
+
+st.header('ANAK KIMIA BNGT')
+st.header('yuk belajar')
 Soal = st.selectbox(
     'Pilih soal',
     ('Soal 1', 'Soal 2', 'Soal 3', 'Soal 4', 'Soal 5', 'Soal 6'))

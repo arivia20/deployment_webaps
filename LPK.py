@@ -30,7 +30,7 @@ elif soal == "Soal 2":
         opsi2= st.button("MM")
     with col2:
         opsi3= st.button("PP")
-        opsi4= st.button("fenolftalein")
+        opsi4= st.button("BTB")
     if opsi1:
         st.write("salah")
     elif opsi2:

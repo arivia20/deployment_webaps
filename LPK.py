@@ -12,14 +12,14 @@ st.header('QUIZ')
 st.caption('yuk belajar')
 
 option = st.selectbox(
-    'pilih soal',
+    'pilih materi',
     ('Analisis Titrimetri', 'Kimia Organik'))
 
 
 Soal = st.selectbox(
-    'pilih soal Analisis titrimetri',
+    'Analisis titrimetri',
     ('Soal 1', 'Soal 2', 'Soal 3','Soal 4','Soal 5'))
-st.divider()
+
 if Soal == "Soal 1":
     st.write("titran pada standardisasi alkalimetri adalah...")
     col1, col2 = st.columns (2)

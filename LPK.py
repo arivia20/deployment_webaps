@@ -15,7 +15,7 @@ import streamlit as st
 soal = st.select_slider(
     'pilihan nomer',
     options=['1', '2', '3', '4', '5', '6', '7', '8', '9' , '10'],
-    value=('red'))
+    value=('nomer'))
 
 Soal = st.selectbox(
     'Pilih soal',

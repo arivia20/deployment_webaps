@@ -10,10 +10,11 @@ import streamlit as st
 
 st.header('ANAK KIMIA BNGT')
 st.header('yuk belajar')
+
 Soal = st.selectbox(
     'Pilih soal',
     ('Soal 1', 'Soal 2', 'Soal 3', 'Soal 4', 'Soal 5', 'Soal 6', 'Soal 7', 'Soal 8', 'soal 9', 'Soal 10'))
-if Soal == "Soal 1:analisis titrimetri":
+if Soal == "Soal 1":
     st.write("titran pada standardisasi alkalimetri adalah...")
     col1, col2 = st.columns (2)
     with col1:
@@ -23,13 +24,13 @@ if Soal == "Soal 1:analisis titrimetri":
         opsi3 = st.button("AgNO3")
         opsi4 = st.button("NaOH")
     if opsi1:
-        st.write("salah")
+        st.write("Salah")
     elif opsi2:
-        st.write("salah")
+        st.write("Salah")
     elif opsi3:
         st.write("salah")
     elif opsi4:
-        st.write("benar")
+        st.write("Benar")
         st.balloons()
         
 elif Soal == "Soal 2":
@@ -89,7 +90,7 @@ if Soal == "Soal 4":
     elif opsi4:
         st.write("salah")
         
-if Soal == "Soal 5":
+if Soal == "Soal 6":
     st.write("senyawa 3-metil-3-heksena direaksikan dengan asam bromida menghasilkan...")
     col1, col2 = st.columns (2)
     with col1:
@@ -107,26 +108,5 @@ if Soal == "Soal 5":
         st.balloons()
     elif opsi4:
         st.write("salah")
-        
-if Soal == "Soal 6":
-    st.write("Larutan KMnO4 distandarisasi dengan cara Permanganometri dengan menggunakan baku standar...")
-    col1, col2 = st.columns (2)
-    with col1:
-        opsi1= st.button("H2SO4")
-        opsi2= st.button("H2C204")
-    with col2:
-        opsi3= st.button("CACO3")
-        opsi4= st.button("Na2S2O3")
-    if opsi1:
-        st.write("salah")
-    elif opsi2:
-        st.write("benar")
-        st.balloons()
-    elif opsi3:
-        st.write("salah")
-    elif opsi4:
-        st.write("salah")
-        
-
        
 

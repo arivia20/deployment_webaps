@@ -20,5 +20,5 @@ if Soal == "Soal 1":
         st.write("salah")
     elif opsi4:
         st.write("Benar")
-        st.ballons()
+        st.balloons()
    

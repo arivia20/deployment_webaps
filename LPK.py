@@ -188,7 +188,7 @@ elif Soal == "Soal 9":
         st.balloons()
    
 elif Soal == "Soal 10":
-    st.write("Kenapa keton sulit dioksidasi")
+    st.write("Kenapa keton sulit dioksidasi?")
     col1, col2 = st.columns (2)
     with col1:
         opsi1= st.button("karena pH 10")
@@ -200,11 +200,12 @@ elif Soal == "Soal 10":
         st.write("salah")
     elif opsi2:
         st.write("benar")
+        st.balloons()
     elif opsi3:
         st.write("salah")
     elif opsi4:
         st.write("salah")
-        st.balloons()
+      
         
         
 

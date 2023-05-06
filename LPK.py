@@ -14,7 +14,7 @@ st.caption('yuk belajar')
 option = st.selectbox(
     'pilih soal',
     ('Analisis Titrimetri', 'Kimia Organik'))
-Soal Analisis Titrimetri = st.selectbox(
+Soal = st.selectbox(
     'Pilih soal',
     ('Soal1', 'Soal 2', 'Soal 3','Soal 4','Soal 5','Soal 6','Soal 7','Soal 7','Soal 8','Soal 9','Soal 10'))
 if Soal == "Soal 1":

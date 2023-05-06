@@ -11,7 +11,7 @@ if Soal == "Soal 1":
         opsi2 = st.button("KMNO4")
     with col2:
         opsi3 = st.button("AgNO3")
-        opsi1 = st.button("HCL")
+        opsi4 = st.button("HCL")
     if opsi1:
         st.write("Benar")
         st.ballons()

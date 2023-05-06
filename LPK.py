@@ -1,6 +1,12 @@
 import streamlit as st
 import time
 import streamlit as st
+import streamlit as st
+from PIL import Image
+
+image = Image.open('logo sds + bg.png')
+
+st.image(image, caption='Sunrise by the mountains')
 
 with st.spinner('Wait for it 03.00'):
     time.sleep(5)
@@ -8,7 +14,7 @@ st.success('Done!')
 
 import streamlit as st
 
-st.header('QUIZ')
+st.header('QUIZ Analisis Titrimetri & kimia Organik')
 st.caption('yuk belajar')
 
 Soal = st.selectbox(

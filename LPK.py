@@ -128,7 +128,7 @@ elif Soal == "Soal 7":
     elif opsi4:
         st.write("salah")
         
-elif Soal == "Soal 7":
+elif Soal == "Soal 8":
     st.write("Trayek pH Fenolftalein adalah...")
     col1, col2 = st.columns (2)
     with col1:

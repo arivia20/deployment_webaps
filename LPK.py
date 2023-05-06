@@ -2,13 +2,18 @@ import streamlit as st
 import time
 import streamlit as st
 
-with st.spinner('Wait for it 05.00'):
+with st.spinner('Wait for it 03.00'):
     time.sleep(5)
 st.success('Done!')
+
+import streamlit as st
+
+st.header('ANAK KIMIA BNGT')
+st.header('yuk belajar')
 Soal = st.selectbox(
     'Pilih soal',
-    ('Soal 1', 'Soal 2', 'Soal 3', 'Soal 4', 'Soal 5', 'Soal 6'))
-if Soal == "Soal 1":
+    ('Soal 1', 'Soal 2', 'Soal 3', 'Soal 4', 'Soal 5', 'Soal 6', 'Soal 7', 'Soal 8', 'soal 9', 'Soal 10'))
+if Soal == "Soal 1:analisis titrimetri":
     st.write("titran pada standardisasi alkalimetri adalah...")
     col1, col2 = st.columns (2)
     with col1:
@@ -104,21 +109,3 @@ if Soal == "Soal 6":
         st.write("salah")
        
 
-if Soal == "Soal 7":
-    st.write("larutan yang distandarisasi dengan baku primer K2Cr2O7 adalah ...")
-    col1, col2 = st.columns (2)
-    with col1:
-        opsi1= st.button("Na2S2O3")
-        opsi2= st.button("NaOH")
-    with col2:
-        opsi3= st.button("HCl")
-        opsi4= st.button("KMnO4")
-    if opsi1:
-        st.write("benar")
-    elif opsi2:
-        st.write("salah")
-    elif opsi3:
-        st.write("salah")
-        st.balloons()
-    elif opsi4:
-        st.write("salah")

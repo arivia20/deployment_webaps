@@ -13,7 +13,7 @@ st.caption('yuk belajar')
 
 option = st.selectbox(
     'pilih soal',
-    ('Email', 'Home phone', 'Mobile phone'))
+    ('Analisis Titrimetri', 'Kimia Organik'))
 Soal = st.selectbox(
     'Pilih soal',
     ('Soal 1', 'Soal 2', 'Soal 3','Soal 4','Soal 5','Soal 6','Soal 7','Soal 7','Soal 8','Soal 9','Soal 10'))

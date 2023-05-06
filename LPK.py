@@ -16,8 +16,8 @@ option = st.selectbox(
     ('Analisis Titrimetri', 'Kimia Organik'))
 
 
-age = st.slider('Soal 1','Soal 2','Soal 3','Soal 4','Soal 5')
-st.write("I'm ok", age)
+Soal = st.slider('Soal 1','Soal 2','Soal 3','Soal 4','Soal 5')
+st.write("I'm ok", Soal)
 
 if Soal == "Soal 1":
     st.write("titran pada standardisasi alkalimetri adalah...")

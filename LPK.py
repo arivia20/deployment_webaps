@@ -9,7 +9,7 @@ st.success('Done!')
 import streamlit as st
 
 st.header('ANAK KIMIA BNGT')
-st.header('yuk belajar')
+st.header('Anak AKA')
 
 Soal = st.selectbox(
     'Pilih soal',

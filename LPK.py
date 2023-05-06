@@ -8,8 +8,8 @@ st.success('Done!')
 
 import streamlit as st
 
-st.header('ANAK KIMIA BNGT')
-st.header('Anak AKA')
+st.header('QUIZ')
+st.caption('yuk belajar')
 
 
 Soal = st.selectbox(

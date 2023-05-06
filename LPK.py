@@ -6,7 +6,7 @@ from PIL import Image
 st.title('LPK kuyy!')
 image = Image.open('IMG_20230506_184224.jpg')
 
-st.image(image, caption='stevanny,lulu,ekke,kania,pandan')
+st.image(image, caption='stevanny,lulu,ekke,kania,pandan tsiqqa arivia')
 
 with st.spinner('Wait for it 03.00'):
     time.sleep(5)

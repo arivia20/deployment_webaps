@@ -188,27 +188,22 @@ elif Soal == "Soal 9":
         st.balloons()
    
 elif Soal == "Soal 10":
-import streamlit as st
-from PIL import Image
-
-image = Image.open('Nanocarbon_icon_2.jpg')
- 
-    st.write("l")
+    st.write("Kenapa keton sulit dioksidasi")
     col1, col2 = st.columns (2)
     with col1:
-        opsi1= st.button("karena penambahan H2SO4 sebagai pengganti indikator")
-        opsi2= st.button("karena pemanasan yang dilakukan akan menyebabkan perubahan warna")
+        opsi1= st.button("karena pH 10")
+        opsi2= st.button("karena tidak ada gugus hidrogennya")
     with col2:
-        opsi3= st.button("karena asam oksalat bersifat auto indikator")
-        opsi4= st.button("karena KMnO4 bersifat auto indikator")
+        opsi3= st.button("karena sudah takdir")
+        opsi4= st.button("Semuanya Benar")
     if opsi1:
         st.write("salah")
     elif opsi2:
-        st.write("salah")
+        st.write("benar")
     elif opsi3:
         st.write("salah")
     elif opsi4:
-        st.write("benar")
+        st.write("salah")
         st.balloons()
         
         

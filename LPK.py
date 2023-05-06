@@ -8,7 +8,7 @@ st.header('Kelompok 3')
 st.subheader('1A')
 image = Image.open('IMG_20230506_184224.jpg')
 
-st.image(image, caption='stevanny,lulu,ekke,kania,pandan tsiqqa arivia')
+st.image(image, caption='STEVANNY A.S,LULU LUTHFI H.A,EKKE ROSE M.,kania MIEILANI,PANDAN TSIQQA A.')
 
 with st.spinner('Wait for it 03.00'):
     time.sleep(5)

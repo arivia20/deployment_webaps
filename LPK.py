@@ -38,7 +38,7 @@ if Soal == "Soal 1":
         st.write("Benar")
         st.balloons()
         
-elif Soal Analisis Titrimetri == "Soal 2":
+elif Soal == "Soal 2":
     st.write("indikator dalam standardisasi NaOH adalah...")
     col1, col2 = st.columns (2)
     with col1:
@@ -57,7 +57,7 @@ elif Soal Analisis Titrimetri == "Soal 2":
     elif opsi4:
         st.write("salah")
         
-elif Soal Analisis Titrimetri == "Soal 3":
+elif Soal == "Soal 3":
     st.write("Alkil halida-alkil halida yang dapat digunakan untuk membuat 2-metil-3-siklobutilpentana dengan cara Corey-House adalah(alkil halida sesuai tahapannya)...")
     col1, col2 = st.columns (2)
     with col1:
@@ -76,7 +76,7 @@ elif Soal Analisis Titrimetri == "Soal 3":
     elif opsi4:
         st.write("salah") 
         
-elif Analisis Titrimetri == "Soal 4":
+elif Soal == "Soal 4":
     st.write("Campuran reagen berikut yang menghasilkan reagen uji Tollens adalah...")
     col1, col2 = st.columns (2)
     with col1:
@@ -95,7 +95,7 @@ elif Analisis Titrimetri == "Soal 4":
     elif opsi4:
         st.write("salah")
         
-elif Soal Analisis Titrimetri== "Soal 5":
+elif Soal== "Soal 5":
     st.write("K2Cr2O7 digunakan sebagai baku primer dalam standarisasi...")
     col1, col2 = st.columns (2)
     with col1:

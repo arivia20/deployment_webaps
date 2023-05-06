@@ -10,8 +10,6 @@ import streamlit as st
 
 st.header('ANAK KIMIA BNGT')
 st.header('Anak AKA')
-import streamlit as st
-from PIL import Image
 
 
 Soal = st.selectbox(
@@ -190,6 +188,9 @@ elif Soal == "Soal 9":
         st.balloons()
    
 elif Soal == "Soal 10":
+import streamlit as st
+from PIL import Image
+
 image = Image.open('Nanocarbon_icon_2.jpg')
  
     st.write("l")

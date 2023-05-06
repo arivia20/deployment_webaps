@@ -109,7 +109,7 @@ elif Soal == "Soal 6":
     elif opsi4:
         st.write("salah")
         
- elif Soal == "Soal 7":
+elif Soal == "Soal 7":
     st.write("Hasil uji positif adldehid dan keton menggunakan pereaksi NaHSO3 adalah terbentuknya...")
     col1, col2 = st.columns (2)
     with col1:

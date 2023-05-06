@@ -4,6 +4,8 @@ import streamlit as st
 import streamlit as st
 from PIL import Image
 st.title('LPK kuyy!')
+st.header('Kelompok 3')
+st.subheader('1A')
 image = Image.open('IMG_20230506_184224.jpg')
 
 st.image(image, caption='stevanny,lulu,ekke,kania,pandan tsiqqa arivia')

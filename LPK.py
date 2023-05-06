@@ -4,9 +4,9 @@ import streamlit as st
 import streamlit as st
 from PIL import Image
 
-image = Image.open('logo sds + bg.png')
+image = Image.open('https://github.com/arivia20/deployment_webaps/blob/main/IMG_20230506_184224.jpg')
 
-st.image(image, caption='Sunrise by the mountains')
+st.image(image, caption='stevanny a','lulu','ekke','kania','pandan tsiqqa arivia')
 
 with st.spinner('Wait for it 03.00'):
     time.sleep(5)

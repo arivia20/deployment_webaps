@@ -71,7 +71,7 @@ elif Soal == "Soal 3":
     elif opsi4:
         st.write("salah") 
         
-if Soal == "Soal 4":
+elif Soal == "Soal 4":
     st.write("Campuran reagen berikut yang menghasilkan reagen uji Tollens adalah...")
     col1, col2 = st.columns (2)
     with col1:
@@ -90,7 +90,7 @@ if Soal == "Soal 4":
     elif opsi4:
         st.write("salah")
         
-if Soal == "Soal 6":
+elif Soal == "Soal 6":
     st.write("senyawa 3-metil-3-heksena direaksikan dengan asam bromida menghasilkan...")
     col1, col2 = st.columns (2)
     with col1:
@@ -109,7 +109,7 @@ if Soal == "Soal 6":
     elif opsi4:
         st.write("salah")
         
- if Soal == "Soal 7":
+ elif Soal == "Soal 7":
     st.write("Hasil uji positif adldehid dan keton menggunakan pereaksi NaHSO3 adalah terbentuknya...")
     col1, col2 = st.columns (2)
     with col1:

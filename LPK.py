@@ -83,11 +83,11 @@ elif Soal == "Soal 4":
         opsi4= st.button("CuSO4 + Na2CO3")
     if opsi1:
         st.write("benar")
+        st.balloons()
     elif opsi2:
         st.write("salah")
     elif opsi3:
         st.write("salah")
-        st.balloons()
     elif opsi4:
         st.write("salah")
         

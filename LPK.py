@@ -13,8 +13,12 @@ st.caption('yuk belajar')
 
 option = st.selectbox(
     'pilih soal',
-    ('Analisis Titrimetri=Soal 1,soal 2,soal 3,soal 4,soal 5', 'Kimia Organik'))
+    ('Analisis Titrimetri', 'Kimia Organik'))
 
+
+option = st.selecbox(
+    'pilih soal'
+    ('Analisis Ttrimetri'))
 
 if Soal == "Soal 1":
     st.write("titran pada standardisasi alkalimetri adalah...")
@@ -206,6 +210,9 @@ elif Soal == "Soal 10":
         st.write("salah")
     elif opsi4:
         st.write("salah")
+Soal = st.selectbox(
+    'Pilih soal',
+    ('Soal1', 'Soal 2', 'Soal 3','Soal 4','Soal 5','Soal 6','Soal 7','Soal 7','Soal 8','Soal 9','Soal 10'))
       
         
         

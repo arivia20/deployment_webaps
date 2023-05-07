@@ -14,11 +14,6 @@ with st.spinner('Wait for it 01.00'):
     time.sleep(5)
 st.success('selamat mengerjakan!')
 
-tombol = st.button ("START")
-
-if tombol:
-    quit()
-
 import streamlit as st
 
 st.header('QUIZ Analisis Titrimetri & kimia Organik')
@@ -53,13 +48,13 @@ elif opsi4:
     st.write ("Skor anda sekarang adalah",score)
     st.write("\n")
 
-selesai = input ("Silahkan ketik lanjut untuk melanjutkan")
-if selesai.lower() !="lanjut":
-    quit()
+tombol = st.button ("START")
 
-     
-        
-elif Soal == "Soal 2":
+if tombol:
+    continue
+
+    
+## SOAL 2
     st.write("indikator dalam standardisasi NaOH adalah...")
     col1, col2 = st.columns (2)
     with col1:

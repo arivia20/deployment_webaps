@@ -216,8 +216,7 @@ elif Soal == "Soal 10":
         st.write("salah")
        
     
-    score.append('kamu menjawab'+numcorrect+'soal dari'+'benar!!!')
-    scorepengembalian;
+    
    
                  
     

@@ -18,6 +18,8 @@ import streamlit as st
 
 st.header('QUIZ Analisis Titrimetri & kimia Organik')
 st.caption('yuk belajar')
+result = st.button('Analisis Titrimetri','Kimia Organik')
+st.write (result)
 
 Soal = st.selectbox(
     'pilihan soal',
@@ -119,7 +121,7 @@ elif Soal == "Soal 5":
         st.write("benar")
         st.balloons()
 st.button('Kimia Organik')
-if Soal == "Soal 6":
+elif Soal == "Soal 6":
     st.write("Alkil halida-alkil halida yang dapat digunakan untuk membuat 2-metil-3-siklobutilpentana dengan cara Corey-House adalah(alkil halida sesuai tahapannya)...")
     col1, col2 = st.columns (2)
     with col1:

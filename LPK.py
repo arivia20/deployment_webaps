@@ -14,16 +14,15 @@ with st.spinner('Wait for it 01.00'):
     time.sleep(5)
 st.success('selamat mengerjakan!')
 
+tombol = st.button ("START")
+
+if tombol:
+    quit()
 
 import streamlit as st
 
 st.header('QUIZ Analisis Titrimetri & kimia Organik')
 st.caption('yuk belajar')
-
-tombol = st.button("Next")
-              
-if tombol:
-    quit()
 
 score = 0
 

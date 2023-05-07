@@ -24,13 +24,26 @@ score = 0
 questions = ("Titran pada standarisasi alkalimetri adalah...",
              "Indikator dalam standarisasi NaOH adalah...")
              
-option = (("A.HCL","B.KMnO4","C.AgNO3","D.NaOh"),
+options = (("A.HCL","B.KMnO4","C.AgNO3","D.NaOh"),
           ("A.SM","B.MM","C.PP","D.BTB"))
           
-answer = ("D","C")
+answers = ("D","C")
 guesses = []
 score = 0
 question_num = 0
         
 for question in questions:
           tombol = st.button("next")
+          print(question)
+          for option in options[question_num]:
+              print(option)
+              
+          guess = input("Enter(A,B,C,D):").upper()
+          guesses.append(guess)
+          if guess == answers [question_num]:
+              score += 1
+              print ("BENAR!")
+          else: 
+              print ("SALAH!")
+              print(f"{answers[question_num]} adalah jawaban yang benar!")
+          question_num += 1

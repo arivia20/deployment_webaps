@@ -38,7 +38,7 @@ for question in questions:
           for option in options[question_num]:
               print(option)
               
-          answers = input("Enter(A,B,C,D)").upper()
+          answers = text.input("Enter(A,B,C,D)").upper()
           guesses.append(guess)
           if guess == answers [question_num]:
               score += 1

@@ -307,5 +307,4 @@ elif Soal == "Soal 10":
         st.write("Skor anda sekarang adalah",score)
         st.write("\n")
        
-st.write("Anda mendapat skor" + str(score) +"jawaban benar!")
 st.write("Nilai anda adalah" + str((score / 4)*100) +"%")

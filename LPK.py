@@ -8,7 +8,7 @@ st.header('Kelompok 3')
 st.subheader('1A')
 image = Image.open('IMG_20230506_184224.jpg')
 
-st.image(image, caption='STEVANNY A.S,LULU LUTHFI H.A,EKKE ROSE M.,kania MIEILANI,PANDAN TSIQQA A.')
+st.image(image, caption='STEVANNY A.S,LULU LUTHFI H.A,EKKE ROSE M.,KANIA MIEILANI,PANDAN TSIQQA A.')
 
 with st.spinner('Wait for it 01.00'):
     time.sleep(5)
@@ -18,6 +18,8 @@ import streamlit as st
 
 st.header('QUIZ Analisis Titrimetri & kimia Organik')
 st.caption('yuk belajar')
+
+score = 0
 
 Soal = st.selectbox(
     'pilihan soal',
@@ -34,14 +36,22 @@ if Soal == "Soal 1":
         opsi4 = st.button("NaOH")
     if opsi1:
         st.write("Salah")
+        st.write("Skor anda sekarang adalah",score)
+        print("\n")
     elif opsi2:
         st.write("Salah")
+        st.write("Skor anda sekarang adalah",score)
+        st.write("\n")
     elif opsi3:
         st.write("salah")
+        st.write("Skor anda sekarang adalah",score)
+        print("\n")
     elif opsi4:
         st.write("Benar")
         st.balloons()
-        
+        score += 1
+        st.write ("Skor anda sekarang adalah",score)
+        print("\n")
 elif Soal == "Soal 2":
     st.write("indikator dalam standardisasi NaOH adalah...")
     col1, col2 = st.columns (2)

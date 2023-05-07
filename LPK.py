@@ -12,13 +12,13 @@ st.image(image, caption='STEVANNY A.S,LULU LUTHFI H.A,EKKE ROSE M.,kania MIEILAN
 
 with st.spinner('Wait for it 01.00'):
     time.sleep(5)
-st.success('Done!')
+st.success('selamat mengerjakan!')
 
 import streamlit as st
 
 st.header('QUIZ Analisis Titrimetri & kimia Organik')
 st.caption('yuk belajar')
-st.caption('Analisis Titrimetri','Kimia Organik')
+st.text('Analisis Titrimetri','Kimia Organik')
 
 Soal = st.selectbox(
     'pilihan soal',

@@ -22,12 +22,7 @@ st.caption('yuk belajar')
 Soal = st.selectbox(
     'pilihan soal',
     ('Soal 1','Soal 2','Soal 3','Soal 4','Soal 5','Soal 6','Soal 7','Soal 8','Soal 8','Soal 9','Soal 10'))
-    
-st.write('maake your time')
-result = st.button(soal 1)
-st.write(result)
-
-
+st.write('Analisis Titrimetri')
 if Soal == "Soal 1":
     st.write("titran pada standardisasi alkalimetri adalah...")
     col1, col2 = st.columns (2)
@@ -123,7 +118,8 @@ elif Soal == "Soal 5":
     elif opsi4:
         st.write("benar")
         st.balloons()
-   
+
+st.write('Kimia Organik')
 elif Soal == "Soal 6":
     st.write("Alkil halida-alkil halida yang dapat digunakan untuk membuat 2-metil-3-siklobutilpentana dengan cara Corey-House adalah(alkil halida sesuai tahapannya)...")
     col1, col2 = st.columns (2)

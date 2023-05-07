@@ -22,8 +22,10 @@ st.caption('yuk belajar')
 Soal = st.selectbox(
     'pilihan soal',
     ('Soal 1','Soal 2','Soal 3','Soal 4','Soal 5','Soal 6','Soal 7','Soal 8','Soal 8','Soal 9','Soal 10'))
-    'pilihan materi'
-    ('soal titri')
+    
+st.write('maake your time')
+result=st.button(soal 1)
+st.write(result)
 
 
 if Soal == "Soal 1":

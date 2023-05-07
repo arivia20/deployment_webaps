@@ -18,12 +18,12 @@ import streamlit as st
 
 st.header('QUIZ Analisis Titrimetri & kimia Organik')
 st.caption('yuk belajar')
-
+st.caption('#Analisis Titrimetri','Kimia Organik#')
 
 Soal = st.selectbox(
     'pilihan soal',
     ('Soal 1','Soal 2','Soal 3','Soal 4','Soal 5','Soal 6','Soal 7','Soal 8','Soal 8','Soal 9','Soal 10'))
-st.caption('Analisis Titrimetri','Kimia Organik')
+
 if Soal == "Soal 1":
     st.write("titran pada standardisasi alkalimetri adalah...")
     col1, col2 = st.columns (2)

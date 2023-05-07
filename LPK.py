@@ -214,6 +214,18 @@ elif Soal == "Soal 10":
         st.write("salah")
     elif opsi4:
         st.write("salah")
+       
+    if soal[i] ===
+    soal[i].correctanswer){
+        num benar++;
+    }
+    }
+    score.append('kamu menjawab'+numcorrect+'soal dari'+'benar!!!')
+    score pengembalian;
+    }
+    })();
+                 
+    
 
       
         

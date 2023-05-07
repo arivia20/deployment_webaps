@@ -33,4 +33,4 @@ score = 0
 question_num = 0
         
 for question in questions:
-          print (tombol = st.button("next")
+          tombol = st.button("next")

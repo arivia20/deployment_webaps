@@ -20,6 +20,11 @@ import streamlit as st
 st.header('QUIZ Analisis Titrimetri & kimia Organik')
 st.caption('yuk belajar')
 
+tombol = st.button("Next")
+              
+if tombol:
+    quit()
+
 score = 0
 
 ## SOAL 1

@@ -18,7 +18,7 @@ import streamlit as st
 
 st.header('QUIZ Analisis Titrimetri & kimia Organik')
 st.caption('yuk belajar')
-st.caption('#Analisis Titrimetri','Kimia Organik#')
+st.caption('Analisis Titrimetri','Kimia Organik')
 
 Soal = st.selectbox(
     'pilihan soal',

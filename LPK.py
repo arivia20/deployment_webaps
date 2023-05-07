@@ -24,7 +24,7 @@ score = 0
 questions = ("Titran pada standarisasi alkalimetri adalah..."
              "Indikator dalam standarisasi NaOH adalah..."
              
-option = (("A.HCL","B.KMnO4","C.AgNO3","D.NaOh"),
+option = (("A.HCL","B.KMnO4","C.AgNO3","D.NaOh")
           ("A.SM","B.MM","C.PP","D.BTB"))
           
 answer = ("D","C")

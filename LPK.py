@@ -217,7 +217,7 @@ elif Soal == "Soal 10":
        
     
     score.append('kamu menjawab'+numcorrect+'soal dari'+'benar!!!')
-    score pengembalian;
+    scorepengembalian;
     }
     })();
                  

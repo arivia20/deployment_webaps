@@ -19,7 +19,7 @@ import streamlit as st
 st.header("QUIZ Analisis Titrimetri & kimia Organik")
 st.caption("yuk belajar")
 
-score = 0
+st.score = 0
 
 Soal = st.selectbox(
     'pilihan soal',

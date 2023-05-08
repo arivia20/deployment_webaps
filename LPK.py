@@ -22,7 +22,7 @@ st.caption("yuk belajar")
 
 st.score = 0
 
-st.snow()
+
 
 Soal = st.selectbox(
     'pilihan soal',

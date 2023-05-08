@@ -21,6 +21,7 @@ st.caption("yuk belajar")
 
 st.score = 0
 st.score("Nilai anda adalah" + str((score / 4)*100) +"%")
+st.snow()
 
 Soal = st.selectbox(
     'pilihan soal',

@@ -20,7 +20,7 @@ st.header("QUIZ Analisis Titrimetri & kimia Organik")
 st.caption("yuk belajar")
 
 st.score = 0
-st.score("Nilai anda adalah" + str((score / 4)*100) +"%")
+
 st.snow()
 
 Soal = st.selectbox(
@@ -307,5 +307,7 @@ elif Soal == "Soal 10":
         st.write("salah")
         st.write("Skor anda sekarang adalah",score)
         st.write("\n")
+    
+    st.score("Nilai anda adalah" + str((score / 4)*100) +"%")
        
 

@@ -3,6 +3,7 @@ import time
 import streamlit as st
 import streamlit as st
 from PIL import Image
+st.snow()
 st.title("LPK kuyy!")
 st.header("Kelompok 3")
 st.subheader("1A")

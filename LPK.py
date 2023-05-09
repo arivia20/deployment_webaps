@@ -3,8 +3,10 @@ import time
 import streamlit as st
 import streamlit as st
 from PIL import Image
+import streamlit as st
+
 st.title(':blue[welcome to our webapps]')
-st.subheader('by kelompok 3')
+st.subheader('by;kelompok 3')
 st.subheader("1A")
 image = Image.open("IMG_20230506_184224.jpg")
 
@@ -12,16 +14,11 @@ st.image(image, caption="STEVANNY A.S  , LULU LUTHFI H.A  ,  EKKE ROSE M.   ,  K
 
 with st.spinner("Wait for it 01.00"):
     time.sleep(5)
+st.header("Latihan Soal Titrimetri & kimia Organik")
 st.markdown('''Hai users, selamat datang di web kami.  
 Aplikasi ini dapat digunakan untuk teman-teman yang sedang mengerjakan latihan analisis titrimetri & kimia organik.''') 
 
 st.success("selamat mengerjakan!")
-
-
-import streamlit as st
-
-st.header("Latihan Soal Titrimetri & kimia Organik")
-
 
 Soal = st.selectbox(
     'pilihan soal',

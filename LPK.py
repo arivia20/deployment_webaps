@@ -251,7 +251,7 @@ elif opsi4:
     
 ## SOAL KESEMBILAN    
 st.write("Hasil uji positif adldehid dan keton menggunakan pereaksi NaHSO3 adalah terbentuknya...")
- col1, col2 = st.columns (2)
+col1, col2 = st.columns (2)
 with col1:
     opsi1= st.button("Endapan merah bata")
     opsi2= st.button("Endapan putih")

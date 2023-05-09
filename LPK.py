@@ -15,11 +15,6 @@ with st.spinner("Wait for it 01.00"):
     time.sleep(5)
 st.success("selamat mengerjakan!")
 
-playing = input("Do you want to play? ")
-
-if playing.lower() != "yes":
-    quit()
-
 print("Okay! Let's play :)")
 print("\n")
 

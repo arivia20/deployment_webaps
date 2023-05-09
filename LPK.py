@@ -36,21 +36,21 @@ with col2:
     opsi4 = st.button("NaOH")
 if opsi1:
     st.write("Salah")
-    st.write("Skor anda sekarang adalah",score)
-    st.write("\10")
+    st.write("Skor anda sekarang adalah", score)
+    st.write("\n")
 elif opsi2:
     st.write("Salah")
-    st.write("Skor anda sekarang adalah",score)
-    st.write("\10")
+    st.write("Skor anda sekarang adalah", score)
+    st.write("\n")
 elif opsi3:
     st.write("salah")
-    st.write("Skor anda sekarang adalah",score)
-    st.write("\10")
+    st.write("Skor anda sekarang adalah", score)
+    st.write("\n")
 elif opsi4:
     st.balloons()
     score += 1
-    st.write ("Skor anda sekarang adalah",score)
-    st.write("\10")
+    st.write ("Skor anda sekarang adalah", score)
+    st.write("\n")
 
 ## SOAL KEDUA
 st.write("indikator dalam standardisasi NaOH adalah...")
@@ -63,22 +63,22 @@ with col2:
     opsi4= st.button("BTB")
 if opsi1:
     st.write("salah")
-    st.write("Skor anda sekarang adalah",score)
-    st.write("\10")
+    st.write("Skor anda sekarang adalah", score)
+    st.write("\n")
 elif opsi2:
     st.write("salah")
-    st.write("Skor anda sekarang adalah",score)
-    st.write("\"10)
+    st.write("Skor anda sekarang adalah", score)
+    st.write("\n")
 elif opsi3:
     st.write("benar")
     st.balloons()
     score += 1
-    st.write ("Skor anda sekarang adalah",score)
-    st.write("\10")
+    st.write ("Skor anda sekarang adalah", score)
+    st.write("\n")
 elif opsi4:
     st.write("salah")
-    st.write("Skor anda sekarang adalah",score)
-    st.write("\10")
+    st.write("Skor anda sekarang adalah", score)
+    st.write("\n")
         
 ## SOAL KETIGA
 st.write("K2Cr2O7 digunakan sebagai baku primer dalam standarisasi...")

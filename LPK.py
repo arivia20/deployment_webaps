@@ -305,6 +305,6 @@ elif opsi4:
     st.write("Skor anda sekarang adalah",score)
     st.write("\n")
     
-st.score("Nilai anda adalah" + str((score / 4)*100) +"%")
+st.write("Nilai anda adalah" + str((score / 4)*100) +"%")
        
 

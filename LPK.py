@@ -69,7 +69,7 @@ elif opsi2:
     st.write("\n")
 elif opsi3:
     st.write("benar")
-    score += 1
+    score = score + 1
     st.write ("Skor anda sekarang adalah", score)
     st.write("\n")
 elif opsi4:

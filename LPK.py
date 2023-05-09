@@ -54,32 +54,32 @@ elif opsi4:
     st.write("\n")
 
 ## SOAL KEDUA
-    st.write("indikator dalam standardisasi NaOH adalah...")
-    col1, col2 = st.columns (2)
-    with col1:
-        opsi1= st.button("SM")
-        opsi2= st.button("MM")
-    with col2:
-        opsi3= st.button("PP")
-        opsi4= st.button("BTB")
-    if opsi1:
-        st.write("salah")
-        st.write("Skor anda sekarang adalah",score)
-        st.write("\n")
-    elif opsi2:
-        st.write("salah")
-        st.write("Skor anda sekarang adalah",score)
-        st.write("\n")
-    elif opsi3:
-        st.write("benar")
-        st.balloons()
-        score += 1
-        st.write ("Skor anda sekarang adalah",score)
-        st.write("\n")
-    elif opsi4:
-        st.write("salah")
-        st.write("Skor anda sekarang adalah",score)
-        st.write("\n")
+st.write("indikator dalam standardisasi NaOH adalah...")
+col1, col2 = st.columns (2)
+with col1:
+    opsi1= st.button("SM")
+    opsi2= st.button("MM")
+with col2:
+    opsi3= st.button("PP")
+    opsi4= st.button("BTB")
+if opsi1:
+    st.write("salah")
+    st.write("Skor anda sekarang adalah",score)
+    st.write("\n")
+elif opsi2:
+    st.write("salah")
+    st.write("Skor anda sekarang adalah",score)
+    st.write("\n")
+elif opsi3:
+    st.write("benar")
+    st.balloons()
+    score += 1
+    st.write ("Skor anda sekarang adalah",score)
+    st.write("\n")
+elif opsi4:
+    st.write("salah")
+    st.write("Skor anda sekarang adalah",score)
+    st.write("\n")
         
 ## SOAL KETIGA
 elif Soal== "Soal 3":

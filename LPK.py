@@ -15,18 +15,23 @@ with st.spinner("Wait for it 01.00"):
     time.sleep(5)
 st.success("selamat mengerjakan!")
 
+playing = input("Do you want to play? ")
+
+if playing.lower() != "yes":
+    quit()
+
+print("Okay! Let's play :)")
+print("\n")
+
+score = 0
+
 import streamlit as st
 
 st.header("QUIZ Analisis Titrimetri & kimia Organik")
 st.caption("yuk belajar")
 
 
-
-Soal = st.selectbox(
-    'pilihan soal',
-    ("Soal 1","Soal 2","Soal 3","Soal 4","Soal 5","Soal 6","Soal 7","Soal 8","Soal 9","Soal 10"))
-
-if Soal == "Soal 1":
+## SOAL PERTAMA
     st.write("titran pada standardisasi alkalimetri adalah...")
     col1, col2 = st.columns (2)
     with col1:
@@ -53,7 +58,7 @@ if Soal == "Soal 1":
         st.write ("Skor anda sekarang adalah",score)
         st.write("\n")
 
-elif Soal == "Soal 2":
+## SOAL KEDUA
     st.write("indikator dalam standardisasi NaOH adalah...")
     col1, col2 = st.columns (2)
     with col1:

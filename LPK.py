@@ -4,12 +4,11 @@ import streamlit as st
 import streamlit as st
 from PIL import Image
 
-st.title("LPK kuyy!")
 st.header("Kelompok 3")
 st.subheader("1A")
 image = Image.open("IMG_20230506_184224.jpg")
 
-st.image(image, caption="STEVANNY A.S,LULU LUTHFI H.A,EKKE ROSE M.,KANIA MIEILANI,PANDAN TSIQQA A.")
+st.image(image, caption="STEVANNY A.S  , LULU LUTHFI H.A  ,  EKKE ROSE M.   ,  KANIA MIEILANI   ,  PANDAN TSIQQA A.   ")
 
 with st.spinner("Wait for it 01.00"):
     time.sleep(5)

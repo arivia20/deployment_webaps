@@ -17,7 +17,7 @@ st.success("selamat mengerjakan!")
 
 import streamlit as st
 
-st.header("QUIZ Analisis Titrimetri & kimia Organik")
+st.header("Latihan Soal Titrimetri & kimia Organik")
 st.caption("yuk belajar")
 
 Soal = st.selectbox(

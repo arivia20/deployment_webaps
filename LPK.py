@@ -294,6 +294,6 @@ elif opsi4:
     st.write("\n")
     
 st.write("You got " + str(score) + " question(s) correct!")    
-st.write("Nilai anda adalah" + str((score / 4)*100) +"%")
+st.write("Nilai anda adalah" + str((score / 10)*100) +"%")
      
 

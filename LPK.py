@@ -15,7 +15,7 @@ with st.spinner("Wait for it 01.00"):
     time.sleep(5)
 st.success("selamat mengerjakan!")
 
-print("\n")
+print("\10")
 
 score = 0
 
@@ -37,20 +37,20 @@ with col2:
 if opsi1:
     st.write("Salah")
     st.write("Skor anda sekarang adalah",score)
-    st.write("\n")
+    st.write("\10")
 elif opsi2:
     st.write("Salah")
     st.write("Skor anda sekarang adalah",score)
-    st.write("\n")
+    st.write("\10")
 elif opsi3:
     st.write("salah")
     st.write("Skor anda sekarang adalah",score)
-    st.write("\n")
+    st.write("\10")
 elif opsi4:
     st.balloons()
     score += 1
     st.write ("Skor anda sekarang adalah",score)
-    st.write("\n")
+    st.write("\10")
 
 ## SOAL KEDUA
 st.write("indikator dalam standardisasi NaOH adalah...")
@@ -64,21 +64,21 @@ with col2:
 if opsi1:
     st.write("salah")
     st.write("Skor anda sekarang adalah",score)
-    st.write("\n")
+    st.write("\10")
 elif opsi2:
     st.write("salah")
     st.write("Skor anda sekarang adalah",score)
-    st.write("\n")
+    st.write("\"10)
 elif opsi3:
     st.write("benar")
     st.balloons()
     score += 1
     st.write ("Skor anda sekarang adalah",score)
-    st.write("\n")
+    st.write("\10")
 elif opsi4:
     st.write("salah")
     st.write("Skor anda sekarang adalah",score)
-    st.write("\n")
+    st.write("\10")
         
 ## SOAL KETIGA
 st.write("K2Cr2O7 digunakan sebagai baku primer dalam standarisasi...")

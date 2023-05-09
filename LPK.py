@@ -3,7 +3,7 @@ import time
 import streamlit as st
 import streamlit as st
 from PIL import Image
-
+st.title('blue[welcome to our webapps]')
 st.header("Kelompok 3")
 st.subheader("1A")
 image = Image.open("IMG_20230506_184224.jpg")

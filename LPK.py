@@ -47,7 +47,6 @@ elif opsi3:
     st.write("Skor anda sekarang adalah", score)
     st.write("\n")
 elif opsi4:
-    st.balloons()
     score += 1
     st.write ("Skor anda sekarang adalah", score)
     st.write("\n")
@@ -70,7 +69,6 @@ elif opsi2:
     st.write("\n")
 elif opsi3:
     st.write("benar")
-    st.balloons()
     score += 1
     st.write ("Skor anda sekarang adalah", score)
     st.write("\n")

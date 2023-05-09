@@ -12,9 +12,10 @@ st.image(image, caption="STEVANNY A.S  , LULU LUTHFI H.A  ,  EKKE ROSE M.   ,  K
 
 with st.spinner("Wait for it 01.00"):
     time.sleep(5)
-st.success("selamat mengerjakan!")
 st.markdown('''Hai users, selamat datang di web kami.  
 Aplikasi ini dapat digunakan untuk teman-teman yang sedang mengerjakan latihan analisis titrimetri & kimia organik.''') 
+
+st.success("selamat mengerjakan!")
 
 
 import streamlit as st

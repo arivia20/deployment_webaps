@@ -15,7 +15,6 @@ with st.spinner("Wait for it 01.00"):
     time.sleep(5)
 st.success("selamat mengerjakan!")
 
-print("Okay! Let's play :)")
 print("\n")
 
 score = 0

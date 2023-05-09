@@ -194,121 +194,117 @@ elif opsi4:
      st.write("\n")
      
 ## SOAL KETUJUH
-elif Soal == "Soal 7":
-    st.write("Campuran reagen berikut yang menghasilkan reagen uji Tollens adalah...")
-    col1, col2 = st.columns (2)
-    with col1:
-        opsi1= st.button("AgNO3 + NaOH + NH4OH")
-        opsi2= st.button("Etanol + Air + HCl")
-    with col2:
-        opsi3= st.button("CuSO4 + NaOH + NaK-Tartrat")
-        opsi4= st.button("CuSO4 + Na2CO3")
-    if opsi1:
-        st.write("benar")
-        st.balloons()
-        score += 1
-        st.write ("Skor anda sekarang adalah",score)
-        st.write("\n")
-    elif opsi2:
-        st.write("salah")
-        st.write("Skor anda sekarang adalah",score)
-        st.write("\n")
-    elif opsi3:
-        st.write("salah")
-        st.write("Skor anda sekarang adalah",score)
-        st.write("\n")
-    elif opsi4:
-        st.write("salah")
-        st.write("Skor anda sekarang adalah",score)
-        st.write("\n")
+st.write("Campuran reagen berikut yang menghasilkan reagen uji Tollens adalah...")
+col1, col2 = st.columns (2)
+with col1:
+    opsi1= st.button("AgNO3 + NaOH + NH4OH")
+    opsi2= st.button("Etanol + Air + HCl")
+with col2:
+    opsi3= st.button("CuSO4 + NaOH + NaK-Tartrat")
+    opsi4= st.button("CuSO4 + Na2CO3")
+if opsi1:
+    st.write("benar")
+    st.balloons()
+    score += 1
+    st.write ("Skor anda sekarang adalah",score)
+    st.write("\n")
+elif opsi2:
+    st.write("salah")
+    st.write("Skor anda sekarang adalah",score)
+    st.write("\n")
+elif opsi3:
+    st.write("salah")
+    st.write("Skor anda sekarang adalah",score)
+    st.write("\n")
+elif opsi4:
+    st.write("salah")
+    st.write("Skor anda sekarang adalah",score)
+    st.write("\n")
         
 ## SOAL KEDELAPAN
-elif Soal == "Soal 8":
-    st.write("senyawa 3-metil-3-heksena direaksikan dengan asam bromida menghasilkan...")
-    col1, col2 = st.columns (2)
-    with col1:
-        opsi1= st.button("3-bromo-4-metilheksana")
-        opsi2= st.button("3-bromoheksana")
-    with col2:
-        opsi3= st.button("3-bromo-3-metilheksana")
-        opsi4= st.button("4-bromo-3-metilheksanaa")
-    if opsi1:
-        st.write("salah")
-        st.write("Skor anda sekarang adalah",score)
-        st.write("\n")
-    elif opsi2:
-        st.write("salah")
-        st.write("Skor anda sekarang adalah",score)
-        st.write("\n")
-    elif opsi3:
-        st.write("benar")
-        st.balloons()
-        score += 1
-        st.write ("Skor anda sekarang adalah",score)
-        st.write("\n")
-    elif opsi4:
-        st.write("salah")
-        st.write("Skor anda sekarang adalah",score)
-        st.write("\n")
+st.write("senyawa 3-metil-3-heksena direaksikan dengan asam bromida menghasilkan...")
+col1, col2 = st.columns (2)
+with col1:
+    opsi1= st.button("3-bromo-4-metilheksana")
+    opsi2= st.button("3-bromoheksana")
+with col2:
+    opsi3= st.button("3-bromo-3-metilheksana")
+    opsi4= st.button("4-bromo-3-metilheksanaa")
+if opsi1:
+    st.write("salah")
+    st.write("Skor anda sekarang adalah",score)
+    st.write("\n")
+elif opsi2:
+    st.write("salah")
+    st.write("Skor anda sekarang adalah",score)
+    st.write("\n")
+elif opsi3:
+    st.write("benar")
+    st.balloons()
+    score += 1
+    st.write ("Skor anda sekarang adalah",score)
+    st.write("\n")
+elif opsi4:
+    st.write("salah")
+    st.write("Skor anda sekarang adalah",score)
+    st.write("\n")
     
 ## SOAL KESEMBILAN    
-elif Soal == "Soal 9":
-    st.write("Hasil uji positif adldehid dan keton menggunakan pereaksi NaHSO3 adalah terbentuknya...")
-    col1, col2 = st.columns (2)
-    with col1:
-        opsi1= st.button("Endapan merah bata")
-        opsi2= st.button("Endapan putih")
-    with col2:
-        opsi3= st.button("Endapan cermin perak")
-        opsi4= st.button("Endapan atau minyak kuning-kuning coklat")
-    if opsi1:
-        st.write("salah")
-        st.write("Skor anda sekarang adalah",score)
-        st.write("\n")
-    elif opsi2:
-        st.write("benar")
-        st.balloons()
-        score += 1
-        st.write ("Skor anda sekarang adalah",score)
-        st.write("\n")
-    elif opsi3:
-        st.write("salah")
-        st.write("Skor anda sekarang adalah",score)
-        st.write("\n")
-    elif opsi4:
-        st.write("salah")
-        st.write("Skor anda sekarang adalah",score)
-        st.write("\n")
+st.write("Hasil uji positif adldehid dan keton menggunakan pereaksi NaHSO3 adalah terbentuknya...")
+ col1, col2 = st.columns (2)
+with col1:
+    opsi1= st.button("Endapan merah bata")
+    opsi2= st.button("Endapan putih")
+with col2:
+    opsi3= st.button("Endapan cermin perak")
+    opsi4= st.button("Endapan atau minyak kuning-kuning coklat")
+if opsi1:
+    st.write("salah")
+    st.write("Skor anda sekarang adalah",score)
+    st.write("\n")
+elif opsi2:
+    st.write("benar")
+    st.balloons()
+    score += 1
+    st.write ("Skor anda sekarang adalah",score)
+    st.write("\n")
+elif opsi3:
+    st.write("salah")
+    st.write("Skor anda sekarang adalah",score)
+    st.write("\n")
+elif opsi4:
+    st.write("salah")
+    st.write("Skor anda sekarang adalah",score)
+    st.write("\n")
 
 ## SOAL KESEPULUH
-elif Soal == "Soal 10":
-    st.write("Kenapa keton sulit dioksidasi?")
-    col1, col2 = st.columns (2)
-    with col1:
-        opsi1= st.button("karena pH 10")
-        opsi2= st.button("karena tidak ada gugus hidrogennya")
-    with col2:
-        opsi3= st.button("karena sudah takdir")
-        opsi4= st.button("Semuanya Benar")
-    if opsi1:
-        st.write("salah")
-        st.write("Skor anda sekarang adalah",score)
-        st.write("\n")
-    elif opsi2:
-        st.write("benar")
-        st.balloons()
-        score += 1
-        st.write ("Skor anda sekarang adalah",score)
-        st.write("\n")
-    elif opsi3:
-        st.write("salah")
-        st.write("Skor anda sekarang adalah",score)
-        st.write("\n")
-    elif opsi4:
-        st.write("salah")
-        st.write("Skor anda sekarang adalah",score)
-        st.write("\n")
+st.write("Kenapa keton sulit dioksidasi?")
+col1, col2 = st.columns (2)
+with col1:
+    opsi1= st.button("karena pH 10")
+    opsi2= st.button("karena tidak ada gugus hidrogennya")
+with col2:
+    opsi3= st.button("karena sudah takdir")
+    opsi4= st.button("Semuanya Benar")
+if opsi1:
+    st.write("salah")
+    st.write("Skor anda sekarang adalah",score)
+    st.write("\n")
+elif opsi2:
+    st.write("benar")
+    st.balloons()
+    score += 1
+    st.write ("Skor anda sekarang adalah",score)
+    st.write("\n")
+elif opsi3:
+    st.write("salah")
+    st.write("Skor anda sekarang adalah",score)
+    st.write("\n")
+elif opsi4:
+    st.write("salah")
+    st.write("Skor anda sekarang adalah",score)
+    st.write("\n")
     
-    st.score("Nilai anda adalah" + str((score / 4)*100) +"%")
+st.score("Nilai anda adalah" + str((score / 4)*100) +"%")
        
 

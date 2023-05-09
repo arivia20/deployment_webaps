@@ -27,7 +27,7 @@ Soal == st.selectbox(
 
 if Soal == "Soal 1":
     st.write("titran pada standardisasi alkalimetri adalah...")
-     col1, col2 = st.columns (2)
+    col1, col2 = st.columns (2)
     with col1:
         opsi1 = st.button("HCL")
         opsi2 = st.button("KMNO4")

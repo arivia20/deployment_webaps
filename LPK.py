@@ -6,7 +6,7 @@ from PIL import Image
 import streamlit as st
 
 st.title(':blue[welcome to our webapps]')
-st.subheader('by;kelompok 3')
+st.subheader('kelompok 3')
 st.subheader("1A")
 image = Image.open("IMG_20230506_184224.jpg")
 

@@ -16,7 +16,7 @@ if (selected == 'Homepage') :
      st.title(':blue[WELCOME TO OUR WEBS]')
         
 from PIL import Image
-image = Image.open('Image 2023-05-10 at 20.25.25.jpg')
+
      
     
     

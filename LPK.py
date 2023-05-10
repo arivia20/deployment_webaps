@@ -1,32 +1,33 @@
 import streamlit as st
-import time
-import streamlit as st
-import streamlit as st
+from streamlit_option_menu import option_menu
+
+
+#navigasi sidebar
+with st.sidebar:
+    selected = option_menu('Materi & Latihan',
+    ['Homepage',
+    'Latihan',
+    'Pengolahan Data Titrimetri',
+    'Analisa Data Kimia Organik'],
+    default_index=0)
+
+#Homepage
+if (selected == 'Homepage') :
+     st.title(':blue[WELCOME TO OUR WEBS]')
+        
 from PIL import Image
-import streamlit as st
 
-st.title(':blue[welcome to our webapps]')
-st.subheader('kelompok 3')
-st.subheader("1A")
-image = Image.open("IMG_20230506_184224.jpg")
-
-st.image(image, caption="STEVANNY A.S  , LULU LUTHFI H.A  ,  EKKE ROSE M.   ,  KANIA MIEILANI   ,  PANDAN TSIQQA A.   ")
-
-with st.spinner("Wait for it 01.00"):
-    time.sleep(5)
-st.header("Latihan Soal Titrimetri & kimia Organik")
-st.markdown('''Hai users, selamat datang di web kami.  
-Aplikasi ini dapat digunakan untuk teman-teman yang sedang mengerjakan latihan analisis titrimetri & kimia organik.''') 
-
-st.success("selamat mengerjakan!")
-
-Soal = st.selectbox(
-    'pilihan soal',
-    ('Soal 1','Soal 2','Soal 3','Soal 4','Soal 5','Soal 6','Soal 7','Soal 8','Soal 9','Soal 10'))
-                  
-
-if Soal == "Soal 1":
-    st.write("titran pada standardisasi alkalimetri adalah...")
+     
+    
+    
+      
+     
+        
+#Latihan
+if (selected == 'Latihan') :
+    st.title('Latihan Soal')
+    #soal pertama
+    st.write("1. Titran pada standardisasi alkalimetri adalah...")
     col1, col2 = st.columns (2)
     with col1:
         opsi1 = st.button("HCL")
@@ -44,8 +45,8 @@ if Soal == "Soal 1":
         st.write ("Benar")
         st.balloons()
 
-elif Soal == "Soal 2":
-    st.write("indikator dalam standardisasi NaOH adalah...")
+    #soal kedua
+    st.write("2. Indikator dalam standardisasi NaOH adalah...")
     col1, col2 = st.columns (2)
     with col1:
         opsi1= st.button("SM")
@@ -63,8 +64,8 @@ elif Soal == "Soal 2":
     elif opsi4:
         st.write("salah")
         
-elif Soal== "Soal 3":
-    st.write("K2Cr2O7 digunakan sebagai baku primer dalam standarisasi...")
+    #Soal ketiga
+    st.write("3. K2Cr2O7 digunakan sebagai baku primer dalam standarisasi...")
     col1, col2 = st.columns (2)
     with col1:
         opsi1= st.button("NA2S2O3 0,1N")
@@ -82,8 +83,8 @@ elif Soal== "Soal 3":
     elif opsi4:
         st.write("salah")
         
-elif Soal == "Soal 4":
-    st.write("mengapa pada titrasi permanganometri tidak digunakan indikator...")
+    #Soal keempat
+    st.write("4. Mengapa pada titrasi permanganometri tidak digunakan indikator...")
     col1, col2 = st.columns (2)
     with col1:
         opsi1= st.button("karena penambahan H2SO4 sebagai pengganti indikator")
@@ -101,8 +102,8 @@ elif Soal == "Soal 4":
         st.write("benar")
         st.balloons()
         
-elif Soal == "Soal 5":
-    st.write("Trayek pH Fenolftalein adalah...")
+    #Soal kelima
+    st.write("5.Trayek pH Fenolftalein adalah...")
     col1, col2 = st.columns (2)
     with col1:
         opsi1= st.button("3,1 - 4,4")
@@ -120,8 +121,8 @@ elif Soal == "Soal 5":
         st.write("benar")
         st.balloons()
         
-elif Soal == "Soal 6":
-    st.write("Alkil halida-alkil halida yang dapat digunakan untuk membuat 2-metil-3-siklobutilpentana dengan cara Corey-House adalah(alkil halida sesuai tahapannya)...")
+    #Soal keenam
+    st.write("6. Alkil halida-alkil halida yang dapat digunakan untuk membuat 2-metil-3-siklobutilpentana dengan cara Corey-House adalah(alkil halida sesuai tahapannya)...")
     col1, col2 = st.columns (2)
     with col1:
         opsi1= st.button("1-bromo-1-siklobutilpropana dan 2-bromopropana")
@@ -139,8 +140,8 @@ elif Soal == "Soal 6":
     elif opsi4:
         st.write("salah") 
         
-elif Soal == "Soal 7":
-    st.write("Campuran reagen berikut yang menghasilkan reagen uji Tollens adalah...")
+    #Soal ketujuh
+    st.write("7. Campuran reagen berikut yang menghasilkan reagen uji Tollens adalah...")
     col1, col2 = st.columns (2)
     with col1:
         opsi1= st.button("AgNO3 + NaOH + NH4OH")
@@ -159,8 +160,8 @@ elif Soal == "Soal 7":
         st.write("salah")
         
 
-elif Soal == "Soal 8":
-    st.write("senyawa 3-metil-3-heksena direaksikan dengan asam bromida menghasilkan...")
+    #Soal kedelapan
+    st.write("8. Senyawa 3-metil-3-heksena direaksikan dengan asam bromida menghasilkan...")
     col1, col2 = st.columns (2)
     with col1:
         opsi1= st.button("3-bromo-4-metilheksana")
@@ -178,8 +179,8 @@ elif Soal == "Soal 8":
     elif opsi4:
         st.write("salah")
         
-elif Soal == "Soal 9":
-    st.write("Hasil uji positif adldehid dan keton menggunakan pereaksi NaHSO3 adalah terbentuknya...")
+    #Soal kesembilan
+    st.write("9. Hasil uji positif adldehid dan keton menggunakan pereaksi NaHSO3 adalah terbentuknya...")
     col1, col2 = st.columns (2)
     with col1:
         opsi1= st.button("Endapan merah bata")
@@ -197,8 +198,8 @@ elif Soal == "Soal 9":
     elif opsi4:
         st.write("salah")
         
-elif Soal == "Soal 10":
-    st.write("Kenapa keton sulit dioksidasi?")
+    #Soal kesepuluh
+    st.write("10. Kenapa keton sulit dioksidasi?")
     col1, col2 = st.columns (2)
     with col1:
         opsi1= st.button("karena pH 10")
@@ -213,6 +214,26 @@ elif Soal == "Soal 10":
         st.balloons()
     elif opsi3:
         st.write("salah")
-
     elif opsi4:
         st.write("salah")
+        
+if (selected == 'Pengolahan Data Titrimetri'):
+    bobot = st.number_input('Masukkan bobot sample')
+    volume = st.number_input('Masukkan volume larutan yang di standarisasi')
+    Beratekivalen = st.number_input('Masukkan berat ekivalen dalam sample')
+    tombol=st.button('hitung normalitas')
+    if tombol:
+        nilai_normalitas=bobot/(volume*Beratekivalen)
+        st.success(f'nilai normalitas adalah{nilai_normalitas}')
+        
+if (selected == 'Analisa Data Kimia Organik'):
+    st.subheader ('KODE WARNA')
+    st.write('1 = tidak terjadi perubahan')
+    st.write('2 = merah muda')
+    
+    st.subheader('Uji Ceric Nitrat')
+    perubahan = st.number_input('Masukkan kode warna akhir ')
+    if perubahan==1:
+        st.write('senyawa yang tidak mengandung gugus hidroksil')
+    elif perubahan==2:
+        st.write('senyawa yang mengandung gugus hidroksil')
